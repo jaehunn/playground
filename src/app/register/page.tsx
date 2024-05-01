@@ -19,10 +19,7 @@ export default function RegisterPage() {
     onSubmit: (e) => {
       e.preventDefault();
 
-      console.log({
-        name,
-        password,
-      });
+      // ...
     },
   };
 

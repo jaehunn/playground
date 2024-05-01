@@ -39,6 +39,12 @@ export default function RegisterUI({
         </label>
 
         <button type="submit">Submit</button>
+
+        {name && password && (
+          <>
+            <div>{name}</div>
+          </>
+        )}
       </form>
     </>
   );
