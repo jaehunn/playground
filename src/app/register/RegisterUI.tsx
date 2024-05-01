@@ -1,10 +1,10 @@
-import { FormEventHandler } from "react";
+import { ChangeEventHandler, FormEventHandler } from "react";
 
 type Props = {
   name: string;
   password: string;
-  onChangeName: () => void;
-  onChangePassword: () => void;
+  onChangeName: ChangeEventHandler<HTMLInputElement>;
+  onChangePassword: ChangeEventHandler<HTMLInputElement>;
   onSubmit: FormEventHandler<HTMLFormElement>;
 };
 
